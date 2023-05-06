@@ -27,7 +27,7 @@ experiences:
       **Aliquam** at **rutrum** ante. In sed quam faucibus.
 
 weight: 3
-widget:
+widget
   handler: experience
 
   # Options: sm, md, lg and xl. Default is md.
