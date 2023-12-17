@@ -1,6 +1,6 @@
 mainSections:
   - posts
-description: Eureka is a elegant and powerful theme for Hugo.
+description: Void.
 
 repoEditURL:
 
@@ -28,6 +28,13 @@ highlight:
     # See https://github.com/highlightjs/cdn-release/tree/main/build/languages for available languages.
     languages:
       - dart
+      - python
+      - lisp
+      - go
+      - rust
+      - html
+      - css
+      - javascript
     # See https://github.com/highlightjs/cdn-release/tree/main/build/styles for available styles.
     style: base16/solarized-light
 
