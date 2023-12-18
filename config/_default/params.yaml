@@ -27,12 +27,12 @@ highlight:
     # highlight.js doesn't bundle every language. So please specify additional languages you want here.
     # See https://github.com/highlightjs/cdn-release/tree/main/build/languages for available languages.
     languages:
-      - dart
+      - shell
+      - bash
       - python
       - lisp
       - go
       - rust
-      - html
       - css
       - javascript
     # See https://github.com/highlightjs/cdn-release/tree/main/build/styles for available styles.
