@@ -1,4 +1,4 @@
-<div class="py-1">
+<div class="py-2">
   {{ range . }}
   <div class="flex flex-col items-center md:flex-col md:me-4 my-4">
     <a href="{{ .Permalink }}" class="text-primary-text w-24">
@@ -10,12 +10,12 @@
         alt="Avatar"
       />
       {{ else }}
-      <i class="fas fa-user-circle fa-6x"></i>
+      <i class="w-full fas fa-user-circle fa-4x"></i>
       {{ end }}
     </a>
     <a
       href="{{ .Permalink }}"
-      class="text-lg"
+      class="text-sm font-bold"
     >
       <h3>{{ .LinkTitle }}</h3>
     </a>
