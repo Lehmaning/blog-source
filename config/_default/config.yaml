@@ -9,7 +9,7 @@ theme: wangchucheng.com/hugo-eureka
 
 paginate: 3
 copyright: >
-  &copy; 2023 Lehmaning
+  &copy; <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a> 2023 Lehmaning
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
