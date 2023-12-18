@@ -1,18 +1,24 @@
-<div class="py-2">
+<div class="py-1">
   {{ range . }}
-    <div class="my-8 flex flex-col items-center md:flex-row">
-      <a href="{{ .Permalink }}" class="md:me-4 text-primary-text h-24 w-24">
-        {{ $img := partial "utils/get-image" (dict "context" . "url" .Params.avatar "keyword" "*avatar*") }}
-        {{ with $img }}
-          <img
-            src="{{ . }}"
-            class="bg-primary-bg w-full rounded-full"
-            alt="Avatar"
-          />
-        {{ else }}
-          <i class="fas fa-user-circle fa-6x"></i>
-        {{ end }}
-      </a>
-    </div>
+  <div class="flex flex-col items-center md:flex-col md:me-4 my-4">
+    <a href="{{ .Permalink }}" class="text-primary-text w-24">
+      {{ $img := partial "utils/get-image" (dict "context" . "url"
+      .Params.avatar "keyword" "*avatar*") }} {{ with $img }}
+      <img
+        src="{{ . }}"
+        class="bg-primary-bg w-full rounded-full"
+        alt="Avatar"
+      />
+      {{ else }}
+      <i class="fas fa-user-circle fa-6x"></i>
+      {{ end }}
+    </a>
+    <a
+      href="{{ .Permalink }}"
+      class="text-lg"
+    >
+      <h3>{{ .LinkTitle }}</h3>
+    </a>
+  </div>
   {{ end }}
 </div>
