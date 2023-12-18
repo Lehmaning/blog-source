@@ -2,7 +2,7 @@
 title: Lehmaning
 draft: false
 role: A important person of nothing.
-avatar: image/avatar/krita-2.png
+avatar: https://gcore.jsdelivr.net/gh/Lehmaning/static@master/image/krita/krita-2.jpg
 bio: Never introduce who you are.
 organization:
   name: Jike Techno Inc.

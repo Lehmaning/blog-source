@@ -1,7 +1,7 @@
 ---
 title: "Lain"
 role: "student"
-avatar: "image/avatar/lain.png"
+avatar: "https://fastly.jsdelivr.net/gh/Lehmaning/static@master/image/lain/lain-smile-sunset.png"
 bio: "No matter where you go, everyone's connected."
 ---
 
