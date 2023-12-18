@@ -1,4 +1,4 @@
-baseURL: https://lehmaning.github.io/
+baseURL: /
 title: Running on Empty
 
 # Uncomment when not installing with Hugo Modules
